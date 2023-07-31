@@ -22,8 +22,8 @@ nav {
   color: #015E39;
 }
 .logo {
-  width: 200px;
-  height: 90px;
+  width: 180px;
+  height: 80px;
   margin-right: 220px;
   margin-left: 30px;
 }
@@ -237,4 +237,27 @@ h2 {
     color: #ffffff;
     background-color: #FFA100;
     padding-left: 550px;
+  }
+
+  .floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #015E39;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .floating-button a {
+    display: block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .floating-button a:hover {
+    background-color: #35b180;
+    border-radius: 50px;
   }
